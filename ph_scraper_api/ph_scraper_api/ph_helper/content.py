@@ -36,7 +36,13 @@ def get_all_video_tumbs(url):
 
     page_content = get_page_content(url)
     all_tumb_videos = {'videos': [], 'has_next': False}
-    wraps = page_content.findAll('div', {'class': 'wrap'})
+
+    if 'model' in url:
+        model_vids = page_content.find('ul', {'id': 'mostRecentVideosSection'})
+        wraps = model_vids.findAll('div', {'class': 'wrap'})
+    else:
+        wraps = page_content.findAll('div', {'class': 'wrap'})
+
     for w in wraps:
         video_info = get_video_tumb_infos(w)
 

@@ -27,13 +27,15 @@ def get_videos(
         video_type=None,
         search=None,
         rel_url=None,
-        channel=None
+        channel=None,
+        model=None
 ):
     if not rel_url:
         search_page = {
             'search': 'video',
             'subdomain': subdomain,
             'channel': channel,
+            'model': model,
             'query': {
                 'page': page,
                 'hd': hd,
@@ -52,6 +54,8 @@ def get_videos(
             search_page['search'] = 'video/search'
         if search_page['channel'] is not None:
             search_page['search'] = 'channels/' + channel + '/videos'
+        if search_page['model'] is not None:
+            search_page['search'] = 'model/' + model + '/videos'
     else:
         search_page = rel_url
     return get_all_video_tumbs(create_url(search_page))

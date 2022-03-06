@@ -15,7 +15,8 @@ def search_videos(
         letter=None,
         video_type=None,
         search=None,
-        channel=None
+        channel=None,
+        model=None
 ):
     # get_videos(subdomain=subdomain, page=page, hd=hd, min_duration=min_duration, max_duration=max_duration,
     #            option=option, country=country, category=category, letter=letter, video_type=video_type, search=search,
@@ -27,7 +28,8 @@ def search_videos(
         while has_next:
             page_result = get_videos(subdomain=subdomain, page=page, hd=hd, min_duration=min_duration,
                                      max_duration=max_duration, option=option, country=country, category=category,
-                                     letter=letter, video_type=video_type, search=search, rel_url=None, channel=channel)
+                                     letter=letter, video_type=video_type, search=search, rel_url=None, channel=channel,
+                                     model=model)
             has_next = page_result['has_next']
             videos.extend(page_result['videos'])
             page += 1
@@ -38,6 +40,7 @@ def search_videos(
         for page in range(start_page, end_page):
             page_result = get_videos(subdomain=subdomain, page=page, hd=hd, min_duration=min_duration,
                                      max_duration=max_duration, option=option, country=country, category=category,
-                                     letter=letter, video_type=video_type, search=search, rel_url=None, channel=channel)
+                                     letter=letter, video_type=video_type, search=search, rel_url=None, channel=channel,
+                                     model=model)
             videos.extend(page_result['videos'])
     return videos
