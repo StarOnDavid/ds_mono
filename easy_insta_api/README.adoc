@@ -1,0 +1,13 @@
+= Easy Insta API
+
+The goal is to be able to access content from Instagram very simply in order to process it further.
+
+.Based on:
+link:https://pythonrepo.com/repo/ping-instagram_private_api-python-third-party-apis-wrappers[
+Instagram Private API]
+
+link:https://instagram-private-api.readthedocs.io/en/latest/[Instagram Private API - Documentation]
+
+link:https://github.com/ping/instagram_private_api[Instagram Private API - github]
+
+== Client class

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Free Premium pornHub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+<style>
+body {
+  background-color: #111;
+  background-repeat: no-repeat;
+  background-position:top left;
+  background-attachment:fixed;
+}
+h1{
+  text-align:center;
+  font-family:Georgia, serif;
+  letter-spacing:3px;
+  color:#f90;
+  background-color:#1d1d1d;
+}
+h2{
+  font-family:Georgia, serif;
+  letter-spacing:3px;
+  color:#f90;
+}
+p {
+  font-family:Georgia, serif;
+  font-size:14px;
+  font-style:normal;
+  font-weight:normal;
+  color:#ddd;
+}
+span {
+   font-size:18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.space {hight: 30px}
+
+.center {
+  margin: auto;
+  margin-top: 20px;
+  width: 75%;
+  padding: 10px;
+}
+
+.coverPic {
+    width: 100%;
+    margin: 5px;
+}
+
+.avatarPic {
+    float: left;
+    margin: 5px;
+}
+.infoText {
+            text-align: justify;
+            font-size: 14px;
+        }
+
+</style>
+</head>
+<body>
+    <h1>Free Premium pornHub</h1>
+    <div class="space"> </div>
+
+    <div class="channelWrapper">
+    {% for ch in porn_hub %}
+        <div class="channel center">
+            <table><tr>
+                <td style="width: 40%; padding-right: 10px">
+                    <img class="avatarPic" src="{{ch.channel.avatar_url}}">
+                    <p class="infoText">{{ch.channel.description_text}}</p>
+                </td>
+                <td style="width: 60%">
+                    <a href="{{ch.channel.rel_url}}.html">
+                    <img class="coverPic" src="{{ch.channel.cover_pic_url}}">
+                    <p><span class="bold">FREE PREMIUM VIDEOS </span>{{ch.videos|length}}</p>
+                    </a>
+                </td>
+            </tr></table>
+        </div>
+    {% endfor %}
+    </div>
+</body>
+</html>

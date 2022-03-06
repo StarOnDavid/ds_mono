@@ -1,0 +1,103 @@
+= Install Infos NAS-Box
+
+Based on: https://ctaas.de/software-raid.htm
+
+== Seriennummer HDD's
+
+[grid="rows",format="csv"]
+[options="header",cols="<,<,^,^,^"]
+|===========================
+NAS_ID,/dev,Model,FwRev, SerialNo
+HDD 3,sdb,ST4000VN008-2DR166,SC60,ZGY9DL7C
+HDD 4,sdc,ST4000VN008-2DR166,SC60,ZGY9DLEE
+|===========================
+
+== UUID / PTUUDI
+
+[grid="rows",format="csv"]
+[options="header",cols="<,<,^,^,^,^"]
+|===========================
+NAS_ID,LABEL,UUID,UUDI_SUB,PARTUUID,TYPE
+HDD 1,/dev/sda1,39711f3a-acc1-4fa7-b0a4-291f849147d8,,a7032707-01,
+HDD 1,/dev/sda2,bc40a59c-3309-4deb-95c9-861b4aac8710,,a7032707-02,
+HDD 1,/dev/sda5,19cfbf7e-47cc-463a-ab43-0d7e3bbc432e,,a7032707-05,
+HDD 3,/dev/sdb1,82afa734-ce53-d3b9-9aad-e5bb48310512,8b8e5687-c11d-d464-5f1f-9844e9bfc68c,f1353298-4205-452e-af66-69918b9511c6,
+HDD 4,/dev/sdc1,82afa734-ce53-d3b9-9aad-e5bb48310512,48fa7b6a-fabe-9d96-959f-7d779371141b,5cd2700d-3f8e-4c3a-9e67-d41bc2a00bb6,
+RAID,/dev/md0,03cac54d-9f60-4823-987a-7c6bfd71e268,,,ext4
+
+|===========================
+
+== Partitioning
+
+- leere Partitionstabellen anlegen:
+[source,bash]
+----
+parted /dev/sdb mklabel gpt
+parted /dev/sdc mklabel gpt
+----
+
+- Partitionen für den RAID-Verbund anlegen:
+[source,bash]
+----
+parted -a optimal -- /dev/sdb mkpart primary 2048s -8192s
+parted -a optimal -- /dev/sdc mkpart primary 2048s -8192s
+----
+
+- Den Typ der Partitionen auf RAID ändern:
+[source,bash]
+----
+parted /dev/sdb set 1 raid on
+parted /dev/sdc set 1 raid on
+----
+
+- RAID anlegen (RAID-1)
+mdadm --create /dev/md0 --level=1 --raid-devices=2 /dev/sdb1 /dev/sdc1
+
+IMPORTANT: nochmal ab hier !!!!
+----
+watch -n1 cat /proc/mdstat
+----
+
+- RAID Konfiguration speichern:
+[source,bash]
+----
+mdadm --examine --scan --verbose >> /etc/mdadm/mdadm.conf
+----
+
+- Raid-Laufwerk Formatieren:
+[source,bash]
+----
+mkfs.ext4 -v -m .5  -b 4096 -E stride=128,stripe-width=128 /dev/md0
+----
+
+[source,bash]
+----
+update-initramfs -u -k all
+----
+
+IMPORTANT: bis hier in und dann 'mount -a' fstab eintrag ist vorhanden
+
+- RAID-Verbund in 'fstab' eintragen
+[source,bash]
+----
+nano /etc/fstab
+----
+hier am ende folgenden Eintrag hinzufügen
+[source,bash]
+----
+/dev/md0 /mnt/raid/ ext4 defaults,nosuid,noexec,nodev 1 2
+----
+
+
+== Samba Server
+
+=== Samba User anlegen
+[source,bash]
+----
+adduser --no-create-home --disabled-password --disabled-login <sambausername>
+----
+[source,bash]
+----
+smbpasswd -a <sambausername>
+----
+

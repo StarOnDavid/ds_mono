@@ -1,0 +1,247 @@
+[2021-11-27 14:26:38,773] {connection.py:8} INFO - Setup connection
+[2021-11-27 14:26:38,774] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 14:26:38,774] {connect_instagram_private_api.py:56} INFO - Unable to find file: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_credentials/david.json
+[2021-11-27 14:26:44,278] {connect_instagram_private_api.py:90} INFO - Unexpected Exception: [Errno 2] No such file or directory: '/home/david/src_Pycharm/david_staron_mono/star_viewer/insta_credentials/david.json'
+[2021-11-27 14:27:30,018] {connection.py:8} INFO - Setup connection
+[2021-11-27 14:27:30,018] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 14:27:30,051] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 14:27:30,055] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 14:28:03,193] {connection.py:8} INFO - Setup connection
+[2021-11-27 14:28:03,193] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 14:28:03,195] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 14:28:03,199] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 14:29:18,457] {connection.py:8} INFO - Setup connection
+[2021-11-27 14:29:18,458] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 14:29:18,460] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 14:29:18,464] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 14:31:12,211] {connection.py:8} INFO - Setup connection
+[2021-11-27 14:31:12,212] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 14:31:12,214] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 14:31:12,218] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 14:33:11,306] {connection.py:8} INFO - Setup connection
+[2021-11-27 14:33:11,307] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 14:33:11,308] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 14:33:11,312] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 14:33:11,882] {errors.py:133} WARNING - Error parsing error response: Expecting value: line 1 column 1 (char 0)
+[2021-11-27 14:34:07,884] {connection.py:8} INFO - Setup connection
+[2021-11-27 14:34:07,884] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 14:34:07,886] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 14:34:07,889] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 14:34:16,931] {errors.py:133} WARNING - Error parsing error response: Expecting value: line 1 column 1 (char 0)
+[2021-11-27 14:42:02,083] {connection.py:8} INFO - Setup connection
+[2021-11-27 14:42:02,084] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 14:42:02,085] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 14:42:02,088] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 14:43:53,562] {connection.py:8} INFO - Setup connection
+[2021-11-27 14:43:53,563] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 14:43:53,565] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 14:43:53,569] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 14:45:44,400] {connection.py:8} INFO - Setup connection
+[2021-11-27 14:45:44,400] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 14:45:44,402] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 14:45:44,405] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 14:46:25,508] {connection.py:8} INFO - Setup connection
+[2021-11-27 14:46:25,508] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 14:46:25,511] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 14:46:25,514] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 14:47:39,530] {connection.py:8} INFO - Setup connection
+[2021-11-27 14:47:39,530] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 14:47:39,532] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 14:47:39,535] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 14:49:52,337] {connection.py:8} INFO - Setup connection
+[2021-11-27 14:49:52,337] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 14:49:52,339] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 14:49:52,343] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 14:51:18,062] {connection.py:8} INFO - Setup connection
+[2021-11-27 14:51:18,062] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 14:51:18,065] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 14:51:18,068] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 14:51:28,583] {connection.py:8} INFO - Setup connection
+[2021-11-27 14:51:28,583] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 14:51:28,585] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 14:51:28,589] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 14:52:48,370] {connection.py:8} INFO - Setup connection
+[2021-11-27 14:52:48,371] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 14:52:48,373] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 14:52:48,376] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 14:53:02,620] {connection.py:8} INFO - Setup connection
+[2021-11-27 14:53:02,622] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 14:53:02,623] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 14:53:02,626] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 14:53:02,627] {connection.py:36} INFO - Get following of: star.on.david
+[2021-11-27 14:56:53,500] {connection.py:8} INFO - Setup connection
+[2021-11-27 14:56:53,500] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 14:56:53,503] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 14:56:53,506] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 15:01:22,045] {connection.py:8} INFO - Setup connection
+[2021-11-27 15:01:22,046] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 15:01:22,048] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 15:01:22,051] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 15:03:52,647] {connection.py:8} INFO - Setup connection
+[2021-11-27 15:03:52,647] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 15:03:52,649] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 15:03:52,652] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 15:04:50,305] {connection.py:8} INFO - Setup connection
+[2021-11-27 15:04:50,306] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 15:04:50,307] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 15:04:50,310] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 15:13:49,794] {connection.py:8} INFO - Setup connection
+[2021-11-27 15:13:49,795] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 15:13:49,797] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 15:13:49,800] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 15:15:39,976] {connection.py:8} INFO - Setup connection
+[2021-11-27 15:15:39,977] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 15:15:39,979] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 15:15:39,982] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 15:19:01,820] {connection.py:8} INFO - Setup connection
+[2021-11-27 15:19:01,821] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 15:19:01,823] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 15:19:01,826] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 15:20:57,750] {connection.py:8} INFO - Setup connection
+[2021-11-27 15:20:57,751] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 15:20:57,753] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 15:20:57,757] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 15:21:10,511] {connection.py:8} INFO - Setup connection
+[2021-11-27 15:21:10,512] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 15:21:10,514] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 15:21:10,518] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 15:24:42,608] {connection.py:8} INFO - Setup connection
+[2021-11-27 15:24:42,610] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 15:24:42,612] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 15:24:42,616] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 15:26:13,955] {connection.py:8} INFO - Setup connection
+[2021-11-27 15:26:13,956] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 15:26:13,957] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 15:26:13,960] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 15:26:14,862] {errors.py:133} WARNING - Error parsing error response: Expecting value: line 1 column 1 (char 0)
+[2021-11-27 15:27:06,596] {connection.py:8} INFO - Setup connection
+[2021-11-27 15:27:06,596] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 15:27:06,598] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 15:27:06,601] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 15:28:27,301] {connection.py:8} INFO - Setup connection
+[2021-11-27 15:28:27,301] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 15:28:27,304] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 15:28:27,307] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 15:34:19,744] {connection.py:8} INFO - Setup connection
+[2021-11-27 15:34:19,744] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 15:34:19,746] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 15:34:19,750] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 15:55:43,623] {connection.py:8} INFO - Setup connection
+[2021-11-27 15:55:43,624] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 15:55:43,626] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 15:55:43,629] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 16:06:58,224] {connection.py:8} INFO - Setup connection
+[2021-11-27 16:06:58,225] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 16:06:58,227] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 16:06:58,230] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 16:06:58,231] {connection.py:14} INFO - Get own feed of: star.on.david
+[2021-11-27 17:45:37,103] {connection.py:8} INFO - Setup connection
+[2021-11-27 17:45:37,104] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 17:45:37,105] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 17:45:37,107] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 17:45:51,862] {connection.py:8} INFO - Setup connection
+[2021-11-27 17:45:51,862] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 17:45:51,864] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 17:45:51,868] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 17:45:51,869] {connection.py:26} INFO - Get feed timeline of: star.on.david
+[2021-11-27 17:46:22,603] {connection.py:8} INFO - Setup connection
+[2021-11-27 17:46:22,604] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 17:46:22,606] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 17:46:22,609] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 17:46:22,610] {connection.py:26} INFO - Get feed timeline of: star.on.david
+[2021-11-27 17:47:24,137] {connection.py:8} INFO - Setup connection
+[2021-11-27 17:47:24,137] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 17:47:24,139] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 17:47:24,142] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 17:47:24,143] {connection.py:26} INFO - Get feed timeline of: star.on.david
+[2021-11-27 17:48:08,404] {connection.py:8} INFO - Setup connection
+[2021-11-27 17:48:08,404] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 17:48:08,406] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 17:48:08,409] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 17:48:08,410] {connection.py:26} INFO - Get feed timeline of: star.on.david
+[2021-11-27 17:58:44,241] {connection.py:8} INFO - Setup connection
+[2021-11-27 17:58:44,241] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 17:58:44,243] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 17:58:44,246] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 17:58:44,247] {connection.py:26} INFO - Get feed timeline of: star.on.david
+[2021-11-27 17:59:21,066] {connection.py:8} INFO - Setup connection
+[2021-11-27 17:59:21,066] {connect_instagram_private_api.py:49} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 17:59:21,068] {connect_instagram_private_api.py:65} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 17:59:21,071] {connect_instagram_private_api.py:94} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 17:59:21,072] {connection.py:26} INFO - Get feed timeline of: star.on.david
+[2021-11-27 18:14:08,614] {connection.py:8} INFO - Setup connection
+[2021-11-27 18:14:08,614] {connect_instagram_private_api.py:48} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 18:14:08,616] {connect_instagram_private_api.py:64} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 18:14:08,619] {connect_instagram_private_api.py:93} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 18:14:22,036] {connection.py:8} INFO - Setup connection
+[2021-11-27 18:14:22,037] {connect_instagram_private_api.py:48} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 18:14:22,039] {connect_instagram_private_api.py:64} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 18:14:22,043] {connect_instagram_private_api.py:93} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 18:20:19,738] {connection.py:8} INFO - Setup connection
+[2021-11-27 18:20:19,739] {connect_instagram_private_api.py:48} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 18:20:19,742] {connect_instagram_private_api.py:64} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 18:20:19,745] {connect_instagram_private_api.py:93} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 18:21:08,964] {connection.py:8} INFO - Setup connection
+[2021-11-27 18:21:08,964] {connect_instagram_private_api.py:48} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 18:21:08,966] {connect_instagram_private_api.py:64} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 18:21:08,970] {connect_instagram_private_api.py:93} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 18:21:08,972] {connection.py:55} INFO - Get following of: star.on.david
+[2021-11-27 18:22:28,971] {connection.py:8} INFO - Setup connection
+[2021-11-27 18:22:28,972] {connect_instagram_private_api.py:48} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 18:22:28,974] {connect_instagram_private_api.py:64} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 18:22:28,977] {connect_instagram_private_api.py:93} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 18:32:53,221] {connection.py:8} INFO - Setup connection
+[2021-11-27 18:32:53,222] {connect_instagram_private_api.py:48} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 18:32:53,223] {connect_instagram_private_api.py:64} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 18:32:53,227] {connect_instagram_private_api.py:93} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 18:32:53,228] {connection.py:55} INFO - Get following of: star.on.david
+[2021-11-27 18:36:29,645] {connection.py:8} INFO - Setup connection
+[2021-11-27 18:36:29,645] {connect_instagram_private_api.py:48} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 18:36:29,648] {connect_instagram_private_api.py:64} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 18:36:29,651] {connect_instagram_private_api.py:93} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 18:36:29,652] {connection.py:55} INFO - Get following of: star.on.david
+[2021-11-27 18:37:55,556] {connection.py:8} INFO - Setup connection
+[2021-11-27 18:37:55,557] {connect_instagram_private_api.py:48} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 18:37:55,559] {connect_instagram_private_api.py:64} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 18:37:55,562] {connect_instagram_private_api.py:93} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 18:37:55,564] {connection.py:55} INFO - Get following of: star.on.david
+[2021-11-27 18:40:16,194] {connection.py:8} INFO - Setup connection
+[2021-11-27 18:40:16,195] {connect_instagram_private_api.py:48} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 18:40:16,196] {connect_instagram_private_api.py:64} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 18:40:16,199] {connect_instagram_private_api.py:93} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 18:40:16,201] {connection.py:55} INFO - Get following of: star.on.david
+[2021-11-27 18:41:10,043] {connection.py:8} INFO - Setup connection
+[2021-11-27 18:41:10,044] {connect_instagram_private_api.py:48} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 18:41:10,046] {connect_instagram_private_api.py:64} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 18:41:10,048] {connect_instagram_private_api.py:93} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 18:41:10,049] {connection.py:55} INFO - Get following of: star.on.david
+[2021-11-27 18:43:56,348] {connection.py:8} INFO - Setup connection
+[2021-11-27 18:43:56,348] {connect_instagram_private_api.py:48} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 18:43:56,350] {connect_instagram_private_api.py:64} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 18:43:56,353] {connect_instagram_private_api.py:93} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 18:43:56,354] {connection.py:55} INFO - Get following of: star.on.david
+[2021-11-27 18:44:49,420] {connection.py:8} INFO - Setup connection
+[2021-11-27 18:44:49,420] {connect_instagram_private_api.py:48} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 18:44:49,422] {connect_instagram_private_api.py:64} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 18:44:49,425] {connect_instagram_private_api.py:93} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 18:44:49,426] {connection.py:55} INFO - Get following of: star.on.david
+[2021-11-27 19:08:11,514] {connection.py:8} INFO - Setup connection
+[2021-11-27 19:08:11,514] {connect_instagram_private_api.py:48} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 19:08:11,516] {connect_instagram_private_api.py:64} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 19:08:11,519] {connect_instagram_private_api.py:93} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 19:08:11,520] {connection.py:55} INFO - Get following of: star.on.david
+[2021-11-27 19:08:48,716] {connection.py:8} INFO - Setup connection
+[2021-11-27 19:08:48,716] {connect_instagram_private_api.py:48} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 19:08:48,718] {connect_instagram_private_api.py:64} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 19:08:48,722] {connect_instagram_private_api.py:93} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 19:08:48,723] {connection.py:55} INFO - Get following of: star.on.david
+[2021-11-27 19:14:06,563] {connection.py:8} INFO - Setup connection
+[2021-11-27 19:14:06,563] {connect_instagram_private_api.py:48} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 19:14:06,565] {connect_instagram_private_api.py:64} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 19:14:06,568] {connect_instagram_private_api.py:93} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 19:14:06,569] {connection.py:55} INFO - Get following of: star.on.david
+[2021-11-27 19:40:56,751] {connection.py:8} INFO - Setup connection
+[2021-11-27 19:40:56,752] {connect_instagram_private_api.py:48} INFO - Instagram Private API - Client version: 1.6.0
+[2021-11-27 19:40:56,754] {connect_instagram_private_api.py:64} INFO - Reusing settings: /home/david/src_Pycharm/david_staron_mono/star_viewer/insta_api/insta_credentials/david.json
+[2021-11-27 19:40:56,756] {connect_instagram_private_api.py:93} INFO - Cookie Expiry: 2022-01-30T07:47:26Z
+[2021-11-27 19:40:56,757] {connection.py:55} INFO - Get following of: star.on.david

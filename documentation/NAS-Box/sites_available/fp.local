@@ -1,0 +1,19 @@
+# Virtual Host configuration for fp.local
+#
+# You can move that to a different file under sites-available/ and symlink that
+# to sites-enabled/ to enable it.
+#
+server {
+        listen 80;
+        server_name www.fp.local fp.local;
+
+        root /var/www/freepremium;
+        index index.html;
+
+        location / {
+                allow 192.168.1.0/24;
+                allow 192.168.0.0/24;
+                deny all;
+                try_files $uri $uri/ =404;
+        }
+}
