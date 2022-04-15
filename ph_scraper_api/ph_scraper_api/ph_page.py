@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from ph_scraper_api.ph_scraper_api.ph_helper.content import get_all_video_tumbs, get_all_channel_tumbs, \
-    get_page_content, get_all_video_details, get_all_channel_details
+    get_page_content, get_all_video_details, get_all_channel_details, get_all_model_details
 from ph_scraper_api.ph_scraper_api.ph_helper.url import create_url
 
 
@@ -66,9 +66,15 @@ def get_video_details(rel_url):
 
 
 def get_channel_details(rel_url):
-    if 'channels' not in rel_url:
+    if 'channels' not in rel_url['name']:
         rel_url = 'channels/' + rel_url
     return get_all_channel_details(create_url(rel_url))
+
+
+def get_model_details(model):
+    if 'model' not in model['name']:
+        rel_url = 'model/' + model['name']
+    return get_all_model_details(create_url(rel_url))
 
 
 def get_channels(

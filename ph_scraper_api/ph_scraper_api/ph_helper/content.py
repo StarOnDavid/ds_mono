@@ -138,4 +138,29 @@ def get_all_channel_details(url):
             'subscribers': stats[1].get_text().split(' ')[0].replace(',', ''),
             'videos': stats[2].get_text().split(' ')[0].replace(',', ''),
             'rank': stats[3].get_text().split(' ')[0].replace(',', '')
-    }
+            }
+
+
+def get_all_model_details(url):
+    page_content = get_page_content(url)
+    bio = page_content.find('div', {'class': 'bio'})
+    social_list = bio.find('ul', {'class': 'socialList'}).findAll('li')
+    social_links = []
+    for social_link in social_list:
+        link = {
+            'description': social_link.find('a').get_text().lstrip('\n').lstrip(' ').rstrip('\n').rstrip(' '),
+            'url': social_link.find('a').get('href')
+        }
+        social_links.append(link)
+    details = []
+    info_pieces = bio.findAll('div', {'class': 'infoPiece'})
+    for info_piece in info_pieces:
+        info = {info_piece.find('span').getText().lstrip('\n').lstrip(' ').rstrip(' ').rstrip(
+            '\n').rstrip(':'): info_piece.find('span', {'class': 'smallInfo'}).getText().lstrip('\n').lstrip(
+            ' ').rstrip(' ').rstrip(
+            '\n')}
+        details.append(info)
+    print(details)
+    return {'about': bio.find('section', {'class': 'aboutMeSection'}).findAll('div')[1].get_text(),
+            'social_links': social_links
+            }
